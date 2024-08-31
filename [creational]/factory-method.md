@@ -2,7 +2,7 @@
 
 O padrão Factory Method é um padrão de design criacional que define uma interface para criar objetos, mas permite que as subclasses decidam qual classe instanciar. Ele ajuda a promover a coesão e desacoplamento entre a criação de objetos e seu uso. Em vez de chamar diretamente o construtor de uma classe, o padrão Factory Method permite que uma classe delegue a criação de seus objetos a uma subclasse.
 
-<img src="/img/factory-method-1.png"/>
+<img src="/img/factory-method.png"/>
 
 ## Problema
 
@@ -48,7 +48,7 @@ public abstract class VehicleFactory {
 }
 ```
 
-4. Definir a Interface da Fábrica
+4. Implementar Fábricas Concretas
 
 ```java
 // CarFactory.java
